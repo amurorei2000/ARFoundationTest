@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4900689663065313050
+  m_GuidHigh: 13176995935321984913
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5071436614512983606
+      m_GuidHigh: 16286550821561347757
+    m_SerializedTextureGuid:
+      m_GuidLow: 18317440900060161971
+      m_GuidHigh: 13707219266272969626
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: ShitCap2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5638345776973874135
+      m_GuidHigh: 3873120384827845301
+    m_SerializedTextureGuid:
+      m_GuidLow: 7283563362350716760
+      m_GuidHigh: 8708243706678122137
+    m_Size: {x: 0.1, y: 0.10011124}
+    m_SpecifySize: 1
+    m_Name: earth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5533370868104520585
+      m_GuidHigh: 6597865632246178733
+    m_SerializedTextureGuid:
+      m_GuidLow: 15880868958389954400
+      m_GuidHigh: 13549649446129297563
+    m_Size: {x: 0.1, y: 0.10556701}
+    m_SpecifySize: 1
+    m_Name: 7
+    m_Texture: {fileID: 0}
