@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/GyroScene.unity
+    guid: d423fded1d0b7ee4ba544d14fb2f4359
+  - enabled: 0
     path: Assets/Scenes/ImageTrackScene.unity
     guid: 70a2e6ff408918043ab5c492f17619aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FaceScene.unity
     guid: 14df401245824ad4aa282158437faad8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MarkerlessScene.unity
     guid: 1176f565682a45441ababc3aced7cf63
   m_configObjects: {}

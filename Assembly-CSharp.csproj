@@ -69,38 +69,21 @@
     <Compile Include="Assets\Scripts\ARManager.cs" />
     <Compile Include="Assets\Scripts\CarRotate.cs" />
     <Compile Include="Assets\Scripts\FaceManager.cs" />
+    <Compile Include="Assets\Scripts\GyroManager.cs" />
     <Compile Include="Assets\Scripts\ImageManager.cs" />
     <Compile Include="Assets\Scripts\OnModel.cs" />
     <None Include="Assets\Marcos Schultz\MS Sposts Car\License.txt" />
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
@@ -108,14 +91,38 @@
     <Reference Include="Unity.XR.ARSubsystems.Editor">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARCore">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARCore.Editor">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
@@ -123,20 +130,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARCore">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Project Files/Unity Projects/ARTest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
